@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Adding Main for launching views">
+      <change afterPath="$PROJECT_DIR$/src/Launcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ComAgentFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComAgentFX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstAgent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstAgent/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstComAgents/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstComAgents/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FirstFXAgent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstFXAgent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,25 +69,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="css" value="2" />
+          <entry key="fxml" value="2" />
+          <entry key="java" value="21" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="CSS" value="2" />
+          <entry key="JAVA" value="21" />
           <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="472" />
+          <entry key="java" value="4568" />
           <entry key="sql" value="55" />
+          <entry key="txt" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="472" />
+          <entry key="JAVA" value="4568" />
+          <entry key="PLAIN_TEXT" value="147" />
           <entry key="SQL" value="55" />
         </counts>
       </usages-collector>
@@ -97,22 +105,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dao/PersonDao.java">
+        <entry file="file://$PROJECT_DIR$/src/sender/SenderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="372">
+              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#initTablePerson#0;class#SenderController#0" />
+                <element signature="method#initDataTablePerson#0;class#SenderController#0" />
+                <element signature="method#addTablePersonData#0;class#SenderController#0" />
+                <element signature="class#TablePerson#0;class#SenderController#0" />
+                <element signature="method#TablePerson#0;class#TablePerson#0;class#SenderController#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/ConnectDB.java">
+        <entry file="file://$PROJECT_DIR$/src/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="354">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding>
+                <element signature="method#main#0;class#Launcher#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/receiver/ReceiverController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+              <folding>
+                <element signature="method#initialize#0;class#ReceiverController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/PersonDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,6 +162,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -141,9 +179,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/dao/ConnectDB.java" />
-        <option value="$PROJECT_DIR$/src/dao/Person.java" />
         <option value="$PROJECT_DIR$/database/SQLQueries.sql" />
         <option value="$PROJECT_DIR$/src/dao/PersonDao.java" />
+        <option value="$PROJECT_DIR$/src/Agents.java" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/dao/Person.java" />
+        <option value="$PROJECT_DIR$/src/dao/PersonList.java" />
+        <option value="$PROJECT_DIR$/src/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/sender/SenderController.java" />
+        <option value="$PROJECT_DIR$/src/receiver/ReceiverController.java" />
       </list>
     </option>
   </component>
@@ -181,6 +225,11 @@
             <path>
               <item name="SendObjBetweenAgents" type="b2602c69:ProjectViewProjectNode" />
               <item name="SendObjBetweenAgents" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SendObjBetweenAgents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SendObjBetweenAgents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,6 +237,18 @@
               <item name="SendObjBetweenAgents" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SendObjBetweenAgents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SendObjBetweenAgents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="receiver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SendObjBetweenAgents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SendObjBetweenAgents" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +268,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546348411462" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546357892467" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Jars/DB/mysql-connector-java-5.1.42-bin.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -216,7 +277,13 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learn\Projects\JavaProjects\SMAProjects\SendObjBetweenAgents\src\style" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learn\Projects\JavaProjects\SMAProjects\SendObjBetweenAgents\src\receiver" />
+      <recent name="D:\Learn\Projects\JavaProjects\SMAProjects\SendObjBetweenAgents\src" />
+      <recent name="D:\Learn\Projects\JavaProjects\SMAProjects\SendObjBetweenAgents\src\sender" />
       <recent name="D:\Learn\Projects\JavaProjects\SMAProjects\SendObjBetweenAgents\src\dao" />
     </key>
   </component>
@@ -232,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PersonDao">
+  <component name="RunManager" selected="Application.Launcher">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -247,6 +314,14 @@
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Launcher" />
+      <module name="SendObjBetweenAgents" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,9 +394,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.PersonDao" />
+      <item itemvalue="Application.Launcher" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Launcher" />
         <item itemvalue="Application.PersonDao" />
       </list>
     </recent_temporary>
@@ -337,16 +414,37 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1546346549793" duration="1832000" />
+      <workItem from="1546346549793" duration="10945000" />
     </task>
+    <task id="LOCAL-00001" summary="Delete convert date to string method">
+      <created>1546357808426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546357808442</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding Receiver View">
+      <created>1546357840190</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546357840190</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Sender View &amp; css style">
+      <created>1546357881984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546357881984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3134000" />
+    <option name="totallyTimeSpent" value="12247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -358,7 +456,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32874617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -392,6 +490,10 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <MESSAGE value="Delete convert date to string method" />
+    <MESSAGE value="Adding Receiver View" />
+    <MESSAGE value="Adding Sender View &amp; css style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Sender View &amp; css style" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -440,25 +542,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/Person.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/TreeTableView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="166">
+          <caret line="933" column="27" lean-forward="true" selection-start-line="933" selection-start-column="27" selection-end-line="933" selection-end-column="27" />
           <folding>
-            <element signature="method#Person#0;class#Person#0" />
-            <element signature="method#Person#1;class#Person#0" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#44067#44068#0" expanded="true" />
+            <element signature="e#44112#44113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agents/Agents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/PersonList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="90">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="method#main#0;class#Launcher#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sender/Sender.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/binding/ExpressionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/receiver/ReceiverController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding>
+            <element signature="method#initialize#0;class#ReceiverController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="method#Person#0;class#Person#0" />
+            <element signature="method#Person#1;class#Person#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sender/SenderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initTablePerson#0;class#SenderController#0" />
+            <element signature="method#initDataTablePerson#0;class#SenderController#0" />
+            <element signature="method#addTablePersonData#0;class#SenderController#0" />
+            <element signature="class#TablePerson#0;class#SenderController#0" />
+            <element signature="method#TablePerson#0;class#TablePerson#0;class#SenderController#0" />
           </folding>
         </state>
       </provider>
