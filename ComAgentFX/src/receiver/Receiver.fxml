@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="20.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="receiver.ReceiverController">
+   <children>
+      <HBox alignment="CENTER_LEFT" spacing="5.0">
+         <children>
+            <Label styleClass="title" text="Receiver Agent :" />
+            <Label fx:id="lblAgentName" styleClass="lbl" text="" />
+         </children>
+      </HBox>
+      <JFXTextArea fx:id="areaMsgReceived" editable="false" promptText="Message received :" />
+   </children>
+   <padding>
+      <Insets bottom="40.0" left="30.0" right="30.0" top="20.0" />
+   </padding>
+</VBox>

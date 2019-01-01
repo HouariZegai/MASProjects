@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="root" spacing="20.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sender.SenderController">
+   <children>
+      <HBox alignment="CENTER_LEFT" spacing="5.0">
+         <children>
+            <Label styleClass="title" text="Sender Agent :" />
+            <Label fx:id="lblAgentName" styleClass="lbl" text="" />
+         </children>
+      </HBox>
+      <JFXTextField fx:id="fieldMsgSend" maxWidth="-Infinity" promptText="Type the message">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+      </JFXTextField>
+      <HBox alignment="CENTER_RIGHT">
+         <children>
+            <JFXButton onAction="#onSend" prefHeight="40.0" styleClass="btn" text="Send" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="40.0" left="30.0" right="30.0" top="20.0" />
+   </padding>
+</VBox>
