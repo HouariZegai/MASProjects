@@ -1,11 +1,9 @@
 package dao;
 
-
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-//serializable pour divise objet a des entites
+// Serializable pour divise objet a des entites
 public class Person implements java.io.Serializable {
 
     String name;
@@ -16,7 +14,7 @@ public class Person implements java.io.Serializable {
 
     }
 
-    Person(String name, boolean gender, Date birthdate) {
+    public Person(String name, boolean gender, Date birthdate) {
         this.name = name;
         this.gender = gender;
         this.birthdate = birthdate;
@@ -46,13 +44,9 @@ public class Person implements java.io.Serializable {
         this.birthdate = birthdate;
     }
 
-    public String dateToString(Object date) { //to convert Date to String, use format method of
-        return new SimpleDateFormat("dd-mm-yyyy").format(date);
-    }
-
     @Override
     public String toString() {
-        return name + " " + gender + " born on " + dateToString(birthdate);
+        return name + " " + gender + " born on " + new SimpleDateFormat("dd-mm-yyyy").format(birthdate);
     }
 
 }
